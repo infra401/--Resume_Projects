@@ -82,6 +82,71 @@ You may run into authentication/provider issues when connecting Terraform to you
 *********************************************************************************************************************************************************************
 #Project 4
 
+Deploying a Prometheus Observability Stack
+
+Core Objectives
+- Deploy complete monitoring stack
+- Understand the tool integration
+- Detect application slowness, throughput
+
+Cloud Provider - Azure
+
+Core Tools - Prometheus, Grafana & Alert Manager
+
+Deployment Tools - Terraform for kubernetes cluster & Helm to deploy the monitoring tools
+
+Steps
+- Deploy kubernetes with Terraform
+- Use Helm to deploy tools
+- Configure Pormetheus to scrape targets
+- Set up Grafana dashboard
+- Run load tests on application
+- Trigger and verify alerts
+
+Time Investment
+Comparatively longer for beginners
+
+Potential Problems
+High chance you might go over your free cloud credits with this project
+
+*********************************************************************************************************************************************************************
+#Project 5
+AI-Assisted DevOps (AIOps)
+
+Core Objectives
+- Automate DevOps workflows with AI
+- Help with incident responses
+- Provide operational recommendations
+
+Tech Stack
+Models  -  Python, LLMs via Hugging Face or OpenAI APIs
+DevOps Tools  - CI/CD pipeline, Alert Manager, Chatbot
+Validation  -  Grafana dashboards
+
+Steps
+- Alert manager notifies AI agent
+- Agent interprets logs, suggests steps
+- Agent can restart pods/deployments
+- Use Grafana for human validation
+
+Potential Problems
+This project is not as easy as you think & required a human in the loop for validation
+because you cannot fully trust the AI system
+
+*********************************************************************************************************************************************************************
+# Bonus Projects
+
+1. AIdriven predictive scaling
+
+For this you are using  kada aka kubernetes event driven autoscaling 
+where basically you use ML models predict scaling events before it actually happens.
+So it tracks the usage metrics etc.
+
+2. MLOps Project
+
+
+
+
 
 
 
