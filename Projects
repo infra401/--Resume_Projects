@@ -1,0 +1,105 @@
+Project 1 
+Two-Tier WebApp with Docker & Jenkins
+
+- Automate the deployment pipeline
+- Reduce the manual effort
+- Automatically trigger build steps
+- Deploy after tests pass
+
+TechStack:
+Frontend  - Flask, a lightweight Python web framework
+Database - MySQL for storing & retrieving data
+DevOps Tools - Github, Docker, Docker Compose & Jenkins
+Environment - AWS, specifically on EC2 server
+
+Steps:
+- Set up EC2, install services
+- Connect Jenkins to Github repository
+- Jenkins build image on push
+- Docker compose spin up ocntainers
+- Jenkins runs integration tests
+- Access app on port 5000
+
+Potential Problems
+Your Jenkins build might fail multiple times due to permission issues or communication error.
+
+*********************************************************************************************************************************************************************
+# Project 2
+Three-Tier Web App with Kubernetes
+
+Core Objectives
+- Get hands-on kubernetes experience
+- Understand how microservices work
+
+Tech Stack
+UI Layer  - React.js
+Backend  - Node.js for the APIs
+Database - MongoDB, a NoSQL database
+DevOps Tools - Docker, Kubernetes
+
+Steps
+- Build Docker images for tiers
+- Write kubernetes manifest files
+- Run deployments to create Pods
+
+- Expose Pods using services
+- Check microservice connection
+
+Potential Problems
+- Beginners often get confused between Pods and containers
+"CrashLoopBackOff" errors or memory kills might happen if you haven't configured
+the correct ports for the services to communicate
+
+Time Investments
+6-8 hourse for beginners
+
+*********************************************************************************************************************************************************************
+# Project 3
+Cloud Infrastructure with Terraform
+
+Core Objectives
+- Create an entire environment
+- Get end-to-end Terraform experience
+
+TechStack
+IaC Tool  - Terraform, HCL (HashiCorp Configuration Language)
+Cloud Provider  -  Azure (though Terraform is cloud-agnostic)
+Automation  -  Azure DevOps to automate workflows & ArgoCD for GitOps deployments
+
+Steps
+- Write Terraform configuration scripts
+- Define resources like VMs, storage
+- Use modules for repeatable configs
+- Use Terraform lifecycle (init, apply)
+ 
+Time Investment
+Very time taking for beginners
+
+Potential Problems
+Terraform can look scary at first, but it is highly in-demand tool worth your time
+You may run into authentication/provider issues when connecting Terraform to your cloud account
+
+*********************************************************************************************************************************************************************
+#Project 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
